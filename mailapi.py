@@ -3,7 +3,7 @@
 """
    > FileName: mailapi.py
    > Author: FZH
-   > Mail: fengzhihai@ilarge.cn
+   > Mail: fengzhihai@xxx.cn
    > CreatedTime: 2020-03-22 13:20
 """
 import os
@@ -13,7 +13,7 @@ url = "http://127.0.0.1:5000/fmax"
 
 
 def mail_send():
-    data = {'mail_to': 'fengzhihai@ilarge.cn',
+    data = {'mail_to': 'fengzhihai@xxx.cn',
             'mail_title': 'TEST_TITLE',
             'mail_body': '接口更新完毕'}
     files = []
@@ -25,7 +25,7 @@ def mail_send():
 
 
 def mail_send_append():
-    data = {'mail_to': 'fengzhihai@ilarge.cn',
+    data = {'mail_to': 'fengzhihai@xxx.cn',
             'mail_title': 'TEST_TITLE',
             'mail_body': '接口更新完毕'}
 
